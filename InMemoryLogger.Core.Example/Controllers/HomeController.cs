@@ -8,30 +8,26 @@ using InMemoryLogger.Core.Example.Models;
 
 namespace InMemoryLogger.Core.Example.Controllers
 {
-    public class HomeController : Controller
-    {
-        public IActionResult Index()
+        public class HomeController : Controller
         {
-            return View();
+            public HomeController()
+            {
+
+            }
+
+
+            public async Task<IActionResult> Index()
+            {
+                return View();
+            }
+
+
+
+
+            public IActionResult Error()
+            {
+                throw new Exception("This is Test Exception From Home Controller");
+            }
         }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-    }
+    
 }
