@@ -43,7 +43,7 @@ You can also view the [package page](https://www.nuget.org/packages/InMemoryLogg
 
 # Screenshots
 
-![alt text](https://github.com/hamed-shirbandi/DbLogger.Core/blob/master/InMemoryLogger.Core.Example/wwwroot/images/1.png)
+![alt text](https://github.com/hamed-shirbandi/InMemoryLogger.Core/blob/master/InMemoryLogger.Core.Example/wwwroot/images/1.png)
 
  
 # Thanks
