@@ -40,6 +40,11 @@ You can also view the [package page](https://www.nuget.org/packages/InMemoryLogg
 
 4- To view list of logs, enter the url defined at step 2 in browser. like : www.site.com/InMemoryLogs
 
+
+# Screenshots
+
+![alt text](https://github.com/hamed-shirbandi/DbLogger.Core/blob/master/InMemoryLogger.Core.Example/wwwroot/images/1.png)
+
  
 # Thanks
 [Sem Shekhovtsov](https://www.codeproject.com/script/Membership/View.aspx?mid=12906893)
